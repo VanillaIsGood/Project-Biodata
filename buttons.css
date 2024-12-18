@@ -1,0 +1,73 @@
+.back{
+    display: flex;
+    margin-top: -20px;
+    margin-left: -22px;
+    background: none;
+    background-color: none;
+    border: none;
+    border-radius: 8px;
+    color: rgba(0, 255, 191, 0.3);
+    font-weight: 1000;
+    transition: color 0.8s, background-color 0.8s, border-radius 0.8s; 
+}
+
+.back:hover{
+    color: white;
+    border-radius: 8px;
+    background-color: rgba(0, 255, 191, 0.3);
+    opacity: background-color ;
+    transition: all 0.4s;
+}
+
+.back:active{
+    background-color: rgba(0, 255, 191, 0.1);
+    opacity: 0.1;
+    transition: all 0.3s;
+}
+
+.forward {
+    display: flex;
+    justify-self: right;
+    margin-top: 10px;
+    right: 1%;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+    background-color: #89afe9;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    box-shadow: 5px 5px 18px rgba(125, 117, 193, 0.9);
+    transition: all 0.3s;
+}
+
+/* #B74B4B */
+
+/* .forward button{
+    color: pink;
+    opacity: 0.7;
+    background-color: #2b69c6;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 600;
+    box-shadow: 5px 5px 18px rgba(125, 117, 193, 0.9);
+    transition: all 0.3s;
+} */
+
+
+.forward:hover{
+    color: rgb(43, 108, 49);
+    background-color: #31de99;
+    box-shadow: 5px 3px 10px rgba(137, 114, 114, 0.9);
+    transition: all 0.3s;
+}
+
+.forward:active{
+    transform: translateY(3px);
+    box-shadow: 5px 3px 10px rgba(0,0,0,0.9);
+    transition: all 0.1s;
+    background-color: rgba(0, 255, 64, 0.5);
+}
+
+/* This is the first slide  */
