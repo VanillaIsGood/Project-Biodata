@@ -57,33 +57,26 @@ body {
     overflow: hidden;
 }
 
-
-.something1 {
-    background-color: rgba(255, 255, 255, 0.3);
+.title {
+    color: #dbe1eb;
+    position: absolute;
+    left: 45%;
+    top: -1%;
     border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 10px;
-    /* border: solid;
-    border-color: red; */
-    box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.4);
-    display: none;
-}
-
-.something2 {
-    background-color: rgba(255, 255, 255, 0.3);
-    border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 10px;
-    /* border: solid;
-    border-color: blue; */
-    box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.4);
-    display: none;
+    padding: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 5px 3px 15px rgba(0, 0, 0, 0.1);
 }
 
 .slide {
     display: none;
+    opacity: 1;
+    transition: all 0.8s;
 }
 
 .slide.show {
     display: block;
+    opacity: 0;
+    transition: all 0.8s;
 }

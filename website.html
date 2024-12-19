@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="about_me.css" />
     <link rel="stylesheet" href="projects.css" />
     <link rel="stylesheet" href="buttons.css" />
+    <link rel="stylesheet" href="intro.css" />
     <title>My Portfolio</title>
   </head>
   <!-- background="assets/The Dawn/Reference-Image.png" -->
@@ -19,14 +20,21 @@
       <a href="" id="Summon">Contact</a>
     </div> -->
 
+    <!-- Start of the slide -->
     <div class="Box">
       <!-- Preview button -->
       <button class="back" onclick="previewSlide()">&#60;</button>
-
-      <!-- Start of the slide -->
-      <div class="slide about-me" id="slide1">
+      <div class="slide introduction" id="slide1">
+        <h3> <span class="Hello">Hello</span> I'm</h3>
+        <h1>Sam M. Varela</h1>
+        <h2>Website <span class="Designer">Designer</span> / Game <span class="Developer">Developer</span></h2>
+        <p>Creative Developer with a knack for crafting unconventional programs that sometimes take on a life of their own. Specializes in both web and game design, blending experimentation with a touch of chaos to bring unique ideas to life.</p>
+        <a href="https://www.youtube.com/watch?v=-oveTKMfj-Y" target="_blank">Click me for a surprise</a>
+      </div>
+      
+      <div class="slide about-me" id="slide2">
         <!-- Profile -->
-        <p class="title1">About Me</p>
+        <p class="title">About Me</p>
         <img src="assets/profile.png" alt="" class="profile-image" />
         <div class="status">
           <img src="assets/relationship.png" alt="no image" class="icon-single icon">Single hehe<br/>
@@ -40,20 +48,14 @@
           <a href="https://www.instagram.com/shujitilt/" target="_blank" class="link-insta icon"><img src="assets/instagram.png" alt="" class="icon-insta">@Shujitilt</a> <br>
         </div>
         <div class="content">
-          <div class="introduction">
-            <span style="color: rgb(11, 228, 101); font-weight: bold;">Hello there,</span> <br> <br>
-            <span style="color: rgb(255, 255, 255)">
-              I am Sam M. Varela, an aspiring programmer that turns ideas into reality.
-            </span>
-          </div>
-          <div class="skills">
+          <div class="skills contents">
             <ul>
               <p>Skills</p>
               <li>Game Development</li>
               <li>Web Based Programming</li>
             </ul>
           </div>
-          <div class="programming-language">
+          <div class="programming-language contents">
             <ul>
               <p>Programming Languages</p>
               <li>Python</li>
@@ -62,7 +64,7 @@
               <li>C</li>
             </ul>
           </div>
-          <div class="education">
+          <div class="education contents">
             <table class="table">
               <tr>
                 <td>
@@ -70,7 +72,7 @@
                   Education
                 </td>
               </tr>
-              <td>Mateo B. Abao Elementary School</td>
+              <td>Mateo B. Abao Central Elementary School</td>
               <tr>
                 <td><img src="assets/calendar.png" alt="" class="icon1">2011-2018</td>
               </tr>
@@ -88,32 +90,31 @@
       </div>
 
       <!-- Projects -->
-      <div class="slide Projects" id="slide2">
+      <div class="slide Projects" id="slide3">
         
-        <p class="title2">Projects</p>
-        <h2>On going projects</h2></div>
+        <p class="title">Projects</p>
+        <h2>On going projects</h2>
         <div class="project-container">
           <div class="project">
-            <img src="assets/project1.png" alt="" />
+            <img src="assets/game.png" alt="no image" />
             <div class="project-content">
-              <h3>Project Name</h3>
-              <p>Project Description</p>
-              <a href="#" class="btn">View Project</a>
+              <h3>2DGameEngine</h3>
+              <p>A horribly built game engine from scratch using C/C++ and SDL2 for the purpose of exploring the language.</p>
+              <a href="https://github.com/VanillaIsGood/2DGameEngine" target="_blank">View Project</a>
             </div>
           </div>
           <div class="project">
-            <img src="assets/project2.png" alt="" />
+            <img src="assets/resume.png" alt="no image" />
             <div class="project-content">
-              <h3>Project Name</h3>
-              <p>Project Description</p>
-              <a href="#" class="btn">View Project</a>
+              <h3>My Resume</h3>
+              <p>A project tasked by our teacher.</p>
+              <a href="https://github.com/VanillaIsGood/Resume" target="_blank">View Project</a>
             </div>
           </div>
         </div>
-
-      <div class="slide something2" id="slide3">
-        <h1>NO SO BANAANA</h1>
+        
       </div>
+      
 
       <!-- Forward button -->
       <button class="forward" onclick="nextSlide()">next</button>

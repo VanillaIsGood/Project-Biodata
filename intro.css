@@ -1,0 +1,30 @@
+.introduction {
+    color: rgba(255, 255, 255, 0.647);
+    text-align: justify;
+    font-weight: 300;
+    transition: all 0.3s;
+}
+
+.Hello {
+    padding: 4px;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: rgb(21, 212, 94, 0.3)
+}
+
+.Designer {
+    color: rgba(255, 165, 0, 0.6);
+    font-weight: bold;
+}
+
+.Developer {
+    color: rgba(255, 0, 0, 0.75);
+    font-weight: bold;
+}
+
+.click-me-surprise {
+    cursor: pointer;
+    font-weight: bold;
+    position: relative;
+    transition: all 0.3s;
+}
