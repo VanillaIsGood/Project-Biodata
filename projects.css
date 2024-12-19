@@ -1,0 +1,29 @@
+.title2 {
+    color: #dbe1eb;
+    position: absolute;
+    left: 45%;
+    top: 0%;
+    border-radius: 8px;
+    padding: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 5px 3px 15px rgba(0, 0, 0, 0.1);
+    font-weight: 600;
+    text-align: center;
+    background-color: rgba(25, 55, 101, 0.1);
+    transition: all 0.3s;
+}
+
+.Projects h2 {
+    color: #15d45e;
+    transform: translateY(20%);
+    border-radius: 8px;
+    padding: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 5px 3px 15px rgba(0, 0, 0, 0.1);
+    font-weight: 600;
+    text-align: center;
+    background-color: rgba(25, 55, 101, 0.1);
+    transition: all 0.3s;
+}

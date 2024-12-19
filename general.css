@@ -39,9 +39,9 @@ body {
 .Box{
     font-family: capriola;
     font-size: small;
-    margin: auto;
+    margin: 10%;
+    justify-self: center;
     position: relative;
-    transform: translateY(40%);
     width: 550px;
     height: auto;
     padding-top: 30px;
@@ -54,6 +54,36 @@ body {
     border-radius: 8px;
     border-top: 1px solid rgba(red, green, blue, 0.4);
     border-left: 1px solid rgba(red, green, blue, 0.4);
+    overflow: hidden;
 }
 
 
+.something1 {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 10px;
+    /* border: solid;
+    border-color: red; */
+    box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.4);
+    display: none;
+}
+
+.something2 {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 10px;
+    /* border: solid;
+    border-color: blue; */
+    box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.4);
+    display: none;
+}
+
+.slide {
+    display: none;
+}
+
+.slide.show {
+    display: block;
+}
