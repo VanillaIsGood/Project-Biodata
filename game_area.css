@@ -1,0 +1,8 @@
+canvas {
+    position: relative;
+    display: block;
+    background:url("assets/background.png") no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 8px;
+}
